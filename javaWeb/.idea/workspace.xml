@@ -5,28 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d465ed9f-fb13-45ce-819b-f543824c65ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calcPrac/CalcPracController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calcPrac/calcPrac.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/SampleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/TodoListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/MyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/CalcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/CalcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/InputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/InputController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/calc/calcResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/calc/calcResult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/MyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/CalcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/CalcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/InputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/InputController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/CalcController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/InputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/InputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +55,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
@@ -179,7 +170,7 @@
       <updated>1714663541140</updated>
       <workItem from="1714663543893" duration="4633000" />
       <workItem from="1714719110533" duration="3889000" />
-      <workItem from="1715219824274" duration="7059000" />
+      <workItem from="1715219824274" duration="8794000" />
     </task>
     <servers />
   </component>
