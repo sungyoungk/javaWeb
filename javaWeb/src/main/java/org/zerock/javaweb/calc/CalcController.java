@@ -1,6 +1,7 @@
 package org.zerock.javaweb.calc;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,14 +13,12 @@ import java.io.IOException;
 public class CalcController extends HttpServlet {
 
     @Override
-    public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("doGet.. Post..");
-
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String num1 = req.getParameter("num1");
         String num2 = req.getParameter("num2");
 
-        System.out.printf("num1: %s", num1);
-        System.out.printf("num1: %s", num2);
+        System.out.printf("num1 : %s", num1);
+        System.out.printf("num2 : %s", num2);
 
         resp.sendRedirect("/index");
 

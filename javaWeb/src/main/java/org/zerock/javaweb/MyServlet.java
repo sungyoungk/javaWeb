@@ -10,18 +10,13 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(name = "myServlet", urlPatterns = "/my")
-public class MyServlet  extends HttpServlet {
+public class MyServlet extends HttpServlet{
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        PrintWriter out = resp.getWriter();
-
-        out.println("<html> <body>");
-        out.println("<h1> MyServlet</h1>");
-        out.println("</body> </html>");
+    public void doGet(HttpServletRequest req, HttpServletResponse rsp) throws ServletException, IOException {
+        PrintWriter out = rsp.getWriter();
+        out.println("<html>");
+        out.println("<body> <h1> myServlet </h1>");
+        out.println("<body> </html>");
     }
-
-
-
 }
