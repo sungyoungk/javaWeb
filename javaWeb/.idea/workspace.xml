@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d465ed9f-fb13-45ce-819b-f543824c65ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/CalcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/InputController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calcPrac/CalcPracController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calcPrac/calcPrac.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,13 +14,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/calc/calcResult.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/calc/input.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/CalcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/CalcController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/InputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/InputController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/calc/calcResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/calc/calcResult.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/CalcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/CalcController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/InputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/InputController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/calc/calcResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/calc/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/CalcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/InputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/InputController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -172,7 +178,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714663541140</updated>
       <workItem from="1714663543893" duration="4633000" />
-      <workItem from="1714719110533" duration="3539000" />
+      <workItem from="1714719110533" duration="3889000" />
+      <workItem from="1715219824274" duration="7059000" />
     </task>
     <servers />
   </component>
