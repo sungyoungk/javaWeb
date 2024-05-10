@@ -13,13 +13,13 @@ import java.io.IOException;
 @WebServlet(name = "inputController", urlPatterns = "/calc/input")
 public class InputController extends HttpServlet {
 
-    @Override
-    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        System.out.println("InputController... doGet()..");
-
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("InputController has been called");
         RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/calc/input.jsp");
         dispatcher.forward(req, resp);
+
     }
+
+
 
 }
