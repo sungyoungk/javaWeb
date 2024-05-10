@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d465ed9f-fb13-45ce-819b-f543824c65ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calcPrac/CalcPracController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calcPrac/calcPrac.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/DTO/TodoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/TodoRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,18 +19,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/MyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/CalcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/CalcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/InputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/calc/InputController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/calc/calcResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/calc/calcResult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/MyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/CalcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/CalcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/InputController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/calc/InputController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/todo/TodoListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/zerock/javaweb/todo/TodoListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/todo/TodoListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/classes/org/zerock/javaweb/todo/TodoListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/javaWeb-1.0-SNAPSHOT.war/WEB-INF/todo/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/CalcController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/InputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/calc/InputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/calc/calcResult.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/TodoListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,6 +68,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
@@ -92,6 +92,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="5f11617a-55da-4cae-98da-b743f48351f7" />
+        <option name="HTTP_PORT" value="8090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -179,7 +180,8 @@
       <updated>1714663541140</updated>
       <workItem from="1714663543893" duration="4633000" />
       <workItem from="1714719110533" duration="3889000" />
-      <workItem from="1715219824274" duration="7059000" />
+      <workItem from="1715219824274" duration="15489000" />
+      <workItem from="1715324594940" duration="1772000" />
     </task>
     <servers />
   </component>
