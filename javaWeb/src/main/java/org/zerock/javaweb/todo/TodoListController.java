@@ -1,5 +1,9 @@
 package org.zerock.javaweb.todo;
 
+import java.util.List;
+import org.zerock.javaweb.todo.DTO.TodoDTO;
+import org.zerock.javaweb.todo.service.TodoService;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,8 +18,11 @@ public class TodoListController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        req.getParameter("");
+
         System.out.println("/todo/list");
+
+        List<TodoDTO> dtoList = TodoService.INSTANCE.getList();
+        req.setAttribute("list", dtoList);
 
         req.getRequestDispatcher("/WEB-INF/todo/list.jsp")
                 .forward(req, resp);
