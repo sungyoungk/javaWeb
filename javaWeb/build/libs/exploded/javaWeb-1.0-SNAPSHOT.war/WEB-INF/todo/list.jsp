@@ -16,42 +16,36 @@
 <body>
 <h1>List Page</h1>
 
-<ul>
-<%--    <c:forEach var = "dto" items = "${list}">--%>
-<%--        <li>${dto}</li>--%>
-<%--    </c:forEach>--%>
-    <c:forEach var = "num" begin = "1" end = "10">
+<c:forEach var = "num" items="${list}">
+    <ul>
         <li>${num}</li>
+    </ul>
+</c:forEach>
+
+<c:forEach var="num" begin="1" end="10">
+    <ul>
+        <li>${num}</li>
+    </ul>
+</c:forEach>
+
+<c:if test="${list.size() % 2 == 0}">
+    짝수
+</c:if>
+<c:if test="${list.size() % 2 != 0}">
+    홀수
+</c:if>
+<br>
+<c:choose>
+    <c:when test="${list.size() % 2 == 0}"> 짝수 </c:when>
+    <c:otherwise>홀수</c:otherwise>
+</c:choose>
+
+<c:set var="target" value="5"></c:set>
+
+<ul>
+    <c:forEach var="num" begin="1" end="10">
+        <c:if test="${num == target}"> num is target</c:if>
     </c:forEach>
-</ul>
-
-<ul>
-    <c:if test = "${list.size() % 2 == 0}">
-        짝수
-    </c:if>
-    <c:if test = "${list.size() % 2 != 0}">
-        홀수
-    </c:if>
-</ul>
-
-<ul>
-    <c:choose>
-        <c:when test = "${list.size() % 2 == 0}">
-            짝수
-        </c:when>
-        <c:otherwise>
-            홀수
-        </c:otherwise>
-    </c:choose>
-</ul>
-
-<c:set var = "target" value="5"></c:set>
-<ul>
-        <c:forEach var = "num" begin= "1" end = "10">
-            <c:if test="${num == target}">
-                num is target
-            </c:if>
-        </c:forEach>
 </ul>
 
 
