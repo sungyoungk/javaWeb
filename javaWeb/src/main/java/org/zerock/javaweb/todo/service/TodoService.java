@@ -28,4 +28,14 @@ public List<TodoDTO> getList() {
     return todoDTOS;
 }
 
+    public TodoDTO get(Long tno) {
+        TodoDTO dto = new TodoDTO();
+        dto.setTno(tno);
+        dto.setTitle("Sample Todo");
+        dto.setDueDate(LocalDate.now());
+        dto.setFinished(true);
+
+        return dto;
+    }
+
 }
