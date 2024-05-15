@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d465ed9f-fb13-45ce-819b-f543824c65ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/TodoReadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/read.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/javaweb/todo/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +162,8 @@
       <workItem from="1714663543893" duration="4633000" />
       <workItem from="1714719110533" duration="3889000" />
       <workItem from="1715219824274" duration="15489000" />
-      <workItem from="1715324594940" duration="3476000" />
+      <workItem from="1715324594940" duration="4169000" />
+      <workItem from="1715577188422" duration="397000" />
     </task>
     <servers />
   </component>
