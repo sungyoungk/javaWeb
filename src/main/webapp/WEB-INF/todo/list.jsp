@@ -15,9 +15,10 @@
 <h1>Your Todo List</h1>
 
 <ul>
-   <c:forEach var="dto" items="${list}">
-       <li>${dto}</li>
-   </c:forEach>
+    <c:forEach var="dtoList" items="${list}">
+        <%--         ${dtoList}--%>
+        <li>${dtoList}</li>
+    </c:forEach>
 </ul>
 
 <ul>
@@ -27,17 +28,17 @@
 </ul>
 
 <ul>
-    <c:if test="${list.size() % 2== 0}">
-         짝수
+    <c:if test="${list.size() % 2 ==0}">
+        짝수
     </c:if>
-    <c:if test="${list.size() % 2!= 0}">
-         홀수
+    <c:if test="${list.size() % 2 != 0}">
+        홀수
     </c:if>
 </ul>
 
 <ul>
     <c:choose>
-        <c:when test="${list.size() %2 ==0}">
+        <c:when test="${list.size() % 2 == 0}">
             짝수
         </c:when>
         <c:otherwise>
@@ -46,22 +47,17 @@
     </c:choose>
 </ul>
 
-
-    <c:set var="target" value="5">
-    </c:set>
-
- <ol>
-     <c:forEach var="num" begin="1" end="10">
-         <c:if test="${num == target}">
-             num is a target
-         </c:if>
-     </c:forEach>
- </ol>
-
-
-
-
-
+<c:set var="target" value="5"></c:set>
+<ul>
+    <c:forEach var="num" begin="1" end="10">
+       <c:if test="${num == target}">
+           <li>true</li>
+       </c:if>
+        <c:if test="${num != target}">
+            <li>false</li>
+        </c:if>
+    </c:forEach>
+</ul>
 
 
 </body>
