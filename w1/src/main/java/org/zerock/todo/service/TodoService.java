@@ -25,4 +25,14 @@ public enum TodoService {
                                           })
                         .collect(Collectors.toList());
     }
+
+    public TodoDTO get(Long tno) {
+        TodoDTO dto = new TodoDTO();
+        dto.setTno(tno);
+        dto.setTitle("DTO (" + tno + ")");
+        dto.setDueDate(LocalDate.now());
+        dto.setFinished(true);
+
+        return dto;
+    }
 }

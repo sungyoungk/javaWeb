@@ -37,7 +37,7 @@ public class TodoDTO {
         return finished;
     }
     public void setFinished(boolean isFinished) {
-        this.finished = finished;
+        this.finished = isFinished;
     }
 
     @Override
